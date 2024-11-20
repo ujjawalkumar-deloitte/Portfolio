@@ -1,0 +1,138 @@
+/* General styles */  
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    margin: 0;  
+    padding: 0;  
+    background: #f4f4f4; /* Light gray background */  
+}  
+
+header {  
+    background: #66BB6A; /* Lighter green */  
+    color: #fff;  
+    padding: 10px 20px;  
+    text-align: center;  
+}  
+
+nav {  
+    margin-top: 10px;  
+}  
+
+nav a {  
+    color: #fff;  
+    text-decoration: none;  
+    padding: 10px 20px;  
+    margin: 0 10px;  
+    border-radius: 5px;  
+    transition: background 0.3s;  
+}  
+
+nav a:hover {  
+    background: #57A052; /* Darker green on hover */  
+}  
+
+/* Section styles */  
+section {  
+    padding: 30px;  
+    margin: 20px auto;  
+    background: #fff;  
+    border-radius: 10px;  
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);  
+    max-width: 800px;  
+}  
+
+h2 {  
+    color: #66BB6A; /* Lighter green */  
+    border-bottom: 2px solid #66BB6A;  
+    padding-bottom: 10px;  
+    margin-bottom: 20px;  
+}  
+
+/* List styles */  
+ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+li {  
+    margin: 5px 0;  
+    padding: 5px 10px;  
+    background: #F1F8E9; /* Even lighter green background */  
+    border-left: 5px solid #66BB6A; /* Lighter green border */  
+}  
+
+/* Project styles */  
+.project {  
+    margin-bottom: 20px;  
+    padding: 15px;  
+    background: #E3F2FD; /* Lighter blue background for projects */  
+    border-radius: 8px;  
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);  
+}  
+
+.project h3 {  
+    margin-top: 0;  
+    color: #42A5F5; /* Lighter blue for project titles */  
+}  
+
+.project p {  
+    margin: 5px 0;  
+    color: #666; /* Slightly darker gray for contrast */  
+}  
+
+.project a {  
+    display: inline-block;  
+    margin-top: 10px;  
+    padding: 8px 15px;  
+    color: #fff;  
+    background: #42A5F5; /* Lighter blue */  
+    text-decoration: none;  
+    border-radius: 5px;  
+    transition: background 0.3s;  
+}  
+
+.project a:hover {  
+    background: #2196F3; /* Medium blue on hover */  
+}  
+
+/* Form styles */  
+input[type="text"],  
+input[type="email"],  
+textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    box-sizing: border-box;  
+}  
+
+input[type="submit"] {  
+    background: #66BB6A; /* Lighter green */  
+    color: #fff;  
+    border: none;  
+    padding: 10px 20px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    transition: background 0.3s;  
+}  
+
+input[type="submit"]:hover {  
+    background: #57A052; /* Darker green on hover for submit button */  
+}  
+
+/* Footer styles */  
+footer {  
+    text-align: center;  
+    padding: 20px 0;  
+    background: #66BB6A; /* Lighter green */  
+    color: #fff;  
+    position: relative;  
+    bottom: 0;  
+    width: 100%;  
+}  
+
+footer a {  
+    color: #f4f4f4;  
+    margin: 0 5px;  
+}
