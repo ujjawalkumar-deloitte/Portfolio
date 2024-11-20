@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDET Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background: #1e1f1e; /* Lighter green */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #57A052; /* Darker green on hover */
+        }
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+        }
+        h2 {
+            color: #66BB6A; /* Lighter green */
+            border-bottom: 2px solid #66BB6A;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+            padding: 5px 10px;
+            background: #F1F8E9; /* Even lighter green background */
+            border-left: 5px solid #66BB6A; /* Lighter green border */
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #E3F2FD; /* Lighter blue background for projects */
+            border-radius: 8px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+            color: #42A5F5; /* Lighter blue for project titles */
+        }
+        .project p {
+            margin: 5px 0;
+            color: #666; /* Slightly darker gray for contrast */
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            color: #fff;
+            background: #42A5F5; /* Lighter blue */
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .project a:hover {
+            background: #2196F3; /* Medium blue on hover */
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background: #66BB6A; /* Lighter green */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        input[type="submit"]:hover {
+            background: #57A052; /* Darker green on hover for submit button */
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #66BB6A; /* Lighter green */
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #f4f4f4;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ujjawal Kumar - SDET</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home">
+    <h2>Welcome to My Portfolio!</h2>
+    <p>Hello! I’m Ujjawal Kumar, a passionate Software Development Engineer in Test dedicated to ensuring software quality through automated testing.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am an SDET with a background in software testing and a strong focus on quality assurance. I enjoy solving complex problems and finding efficient solutions through automation.</p>
+    <h3>Education & Certifications</h3>
+    <p>BTech in Computer Science | ISTQB Certified | Certified Agile Tester</p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <h3>Technical Skills:</h3>
+    <ul>
+        <li>Programming Languages: Python, Java, JavaScript</li>
+        <li>Testing Frameworks: Selenium, JUnit, TestNG</li>
+        <li>CI/CD Tools: Jenkins, Docker</li>
+        <li>Database Technologies: SQL, NoSQL</li>
+    </ul>
+    <h3>Soft Skills:</h3>
+    <ul>
+        <li>Communication</li>
+        <li>Problem-solving</li>
+        <li>Teamwork</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Automated Testing Framework</h3>
+        <p>Developed an automated testing framework for a web application using Selenium and Java.</p>
+        <p>Technologies: Selenium, Java, TestNG</p>
+        <a href="#">View Project</a>
+    </div>
+    <div class="project">
+        <h3>API Testing with Postman</h3>
+        <p>Created automated tests for a RESTful API using Postman and Newman.</p>
+        <p>Technologies: Postman, Newman</p>
+        <a href="#">View Project</a>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Coming soon!</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Ujjawal Kumar. All Rights Reserved.</p>
+    <p>
+        <a href="#" target="_blank">LinkedIn</a> | 
+        <a href="#" target="_blank">GitHub</a>
+    </p>
+</footer>
+
+</body>
+</html>
